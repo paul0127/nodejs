@@ -1,4 +1,4 @@
-import {getWebInfo} from './services/index.service'
+const {getWebInfo} = require('../services/index.service')
 
 module.exports = {
     getWebInfo: (req,res) => {

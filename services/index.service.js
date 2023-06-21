@@ -1,4 +1,4 @@
-import connect from './config/database'
+const connect = require('../config/database')
 
 module.exports = {
     getWebInfo:(data,callback)=>{
